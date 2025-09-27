@@ -1,4 +1,6 @@
-public class Cow extends FarmAnimal{
+package FarmAnimal;
+
+public class Cow extends FarmAnimal {
     private String sound = "Moo Moo";
 
     public Cow(String name, String gender, double weight, int age) {
@@ -11,7 +13,7 @@ public class Cow extends FarmAnimal{
 
     @Override
     public String toString() {
-        return "Cow " + sound + super.toString();
+        return "FarmAnimal.Cow " + sound + super.toString();
     }
 
     @Override
